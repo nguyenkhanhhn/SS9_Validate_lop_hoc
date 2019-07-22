@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let className = prompt('Nhập tên lớp học');
+    function lophoc(name) {
+        regex=/^[ACP][0-9]{4}[GHIKLM]$/;
+    if (regex.test(name)){
+        alert('Tên lớp chuẩn')
+    }
+    else {alert('Nhập lại tên lớp')}
+    }
+    lophoc(className);
+</script>
+</body>
+</html>
